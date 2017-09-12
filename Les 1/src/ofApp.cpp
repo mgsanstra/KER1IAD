@@ -37,4 +37,12 @@ void ofApp::draw(){
 	}
 }
 
+void ofApp::keyPressed(int key){
+	if (key==' ') {
+		ofLog() << "Er is op de spatie toets gedrukt" << endl;
+	} else {
+		ofLog() << "Er is op een toets gedrukt" << endl;
+	}
+}
+
 

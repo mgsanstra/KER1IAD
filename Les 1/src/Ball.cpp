@@ -9,7 +9,7 @@ void Ball::setup(float _x, float _y, int _radius){
 	x = _x;
 	y = _y;
 	radius = _radius;
-	
+
 	xSpeed = ofRandom(-20, 20);
 	ySpeed = ofRandom(-20, 20);
 	
