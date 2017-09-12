@@ -1,5 +1,5 @@
 #include "ofApp.h"
-#incude "ofxGui.h"
+#include "ofxGui.h"
 
 //--------------------------------------------------------------
 void ofApp::setup(){
@@ -7,6 +7,7 @@ void ofApp::setup(){
 	gui.add(radius.set("Radius", 50, 0, 200));
 	gui.add(xSpeed.set("xSpeed", 20, 0, 200));
 	gui.add(ySpeed.set("ySpeed", 20, 0, 200));
+	gui.add(color.set("Color", ofColor::white));
 	
 	
 }
@@ -15,10 +16,10 @@ void ofApp::setup(){
 void ofApp::update(){
 
 }
-
+ 
 //--------------------------------------------------------------
 void ofApp::draw(){
-
+	gui.draw();
 }
 
 //--------------------------------------------------------------
@@ -26,6 +27,7 @@ void ofApp::draw(){
 void ofApp::keyPressed(int key){
 	if (key==' ') {
 		ofLog() << "Er is op de spatie toets gedrukt" << endl;
+		
 	} else {
 		ofLog() << "Er is op een toets gedrukt" << endl;
 	}

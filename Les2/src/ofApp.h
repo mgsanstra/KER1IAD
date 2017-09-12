@@ -1,7 +1,7 @@
 #pragma once
 
 #include "ofMain.h"
-#incude "ofxGui.h"
+#include "ofxGui.h"
 
 class ofApp : public ofBaseApp{
 
