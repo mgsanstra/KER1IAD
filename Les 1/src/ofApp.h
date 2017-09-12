@@ -24,10 +24,8 @@ private:
 	float xSpeed;
 	float ySpeed;
 	int radius;
-	ofColor color;
 	
 	
 Ball myBall[NBALLS];
 	
 };
-

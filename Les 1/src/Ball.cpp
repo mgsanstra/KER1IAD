@@ -10,10 +10,6 @@ void Ball::setup(float _x, float _y, int _radius){
 	y = _y;
 	radius = _radius;
 	
-	//x = ofRandom(0 + radius, ofGetHeight() - radius);
-	//y = ofRandom(0 + radius, ofGetHeight() - radius);
-	//radius = ofRandom(20, 40);
-	
 	xSpeed = ofRandom(-20, 20);
 	ySpeed = ofRandom(-20, 20);
 	
