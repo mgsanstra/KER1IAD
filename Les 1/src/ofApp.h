@@ -4,12 +4,14 @@
 #include "ofApp.h"
 #include "Ball.h"
 
-#define NBALLS 10
+#define NBALLS 5
 
 
 
 class ofApp : public ofBaseApp{
+
 	
+
 public:
 	void setup();
 	void update();

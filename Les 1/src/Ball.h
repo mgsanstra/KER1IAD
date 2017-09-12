@@ -10,7 +10,7 @@ class Ball : public ofBaseApp{
 public: // place public functions or variables declarations here
 	
 	// methods, equivalent to specific functions of your class objects
-	void setup();
+	void setup(float _x, float _y, int _radius);
 	void update();
 	void draw();
 	
