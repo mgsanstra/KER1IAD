@@ -18,7 +18,7 @@ public:
 	void draw();
 	
 	void keyPressed(int key);
-
+	
 private:
 	float x;
 	float y;

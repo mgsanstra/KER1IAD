@@ -21,6 +21,7 @@ public: // place public functions or variables declarations here
 	float ySpeed;
 	int radius;
 	ofColor color;
+
 	
   // constructor - used to initialize an object, if no properties are passed the program sets them to the default value
 private: // place private functions or variables declarations here
