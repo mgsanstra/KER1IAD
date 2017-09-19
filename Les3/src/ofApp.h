@@ -16,7 +16,10 @@ class ofApp : public ofBaseApp{
 		ofArduino arduino;
 	
 		void setupArduino(const int& version);
-		
+		void digitalPinChanged(const int& pin);
+		void analogPinChanged(const int& pin);
+
+	
 
 
 };
